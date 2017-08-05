@@ -136,3 +136,31 @@
       color:#53B778;
       font-family:"Varela Round";
     }
+    .iconDiv{
+      width:200px;
+      height:170px;
+      background-color:lightgray;
+      margin:0 auto;
+      border-radius:50%;
+      position: relative;
+    }
+    /*.iconDiv:hover{
+
+      background-color: green;
+    }*/
+
+    .iconDiv i{
+
+      position: absolute;
+      right:28%;
+      bottom:30%;
+      font-size:80px;
+    }
+     .iconDiv .cupIcon{
+      
+      right:30%;
+     }
+     .AboutsP{
+      font-family:"Varela Round";
+      font-size: 20px;
+     }
