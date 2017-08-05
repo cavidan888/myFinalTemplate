@@ -26,14 +26,14 @@ myHover.addEventListener("mouseleave", function(){
 
 $(".iconDiv").bind("mouseover",function(){
 	$(this).css("background", "#53B778");
-	$(this).css("transition", "0.1s ease-in");
+	$(this).css("transition", "0.2s ease-in");
 	$(this).css("color", "white");
 
 });
 
 $(".iconDiv").bind("mouseleave",function(){
 	$(this).css("background", "lightgray");
-	$(this).css("transition", "0.1s ease-in");
+	$(this).css("transition", "0.2s ease-in");
 	$(this).css("color", "black");
 });
 
