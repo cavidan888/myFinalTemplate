@@ -97,7 +97,7 @@
     }
 
     .myCF{
-      background-image: url(../img/pic03.jpg);
+      background-image: url(../img/slide05.jpg);
       background-repeat: no-repeat;
       background-size:cover;
       margin-bottom:60px;
@@ -122,4 +122,17 @@
       margin-bottom:40px;
       color:white;
     }
-  
+    .aboutP{
+      font-size:17.5px;
+      font-family: "Varela Round";
+     /* margin-bottom:25px;*/
+      color:gray;
+      padding:0px;
+      margin:0 0 25px 0;
+    }
+    .aboutH2{
+
+      margin-left:10px;
+      color:#53B778;
+      font-family:"Varela Round";
+    }
