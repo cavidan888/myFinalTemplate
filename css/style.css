@@ -97,7 +97,7 @@
     }
 
     .myCF{
-      background-image: url(../img/ap.jpg);
+      background-image: url(../img/pic03.jpg);
       background-repeat: no-repeat;
       background-size:cover;
       margin-bottom:60px;
@@ -182,19 +182,7 @@
         border-bottom: 3px solid lightgray;
         font-size: 20px;
     }
-    .myHomeGroup input[type=text]{
-          padding-left:40px;nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-    }
-  
-     .myHomeGroup{
-      position: relative;
-     }
-
-   .myHomeGroup input i{
-    position: absolute;
-    top:65px;
-    padding-left:10px;
-   }
+   
 
     .myBtn {
 
