@@ -140,6 +140,7 @@
       float:left;
       font-family:"Varela Round";
       color:gray;
+      padding-bottom:15px;
     }
     .blogUl li a:hover{
       color:greenyellow;
@@ -161,13 +162,15 @@
   
     .sliderUl li a img{
 
-      width:100%;
+      
       float: left;
       margin:0px;
       padding:0px;
       border:none;
       margin-top: 30px;
       position:relative;
+      max-width: 100%;
+      height: auto;
     }
      .sliderButton{
       border-radius:50%;
@@ -185,11 +188,15 @@
       overflow: hidden;
       padding-left: 0px;
     }
+    .slider button{
+      margin-bottom:70px;
+    }
     .slider ul li{
       float: left;
     }
     .sliderP{
       font-size:15px;
+      margin-bottom:30px;
     }
     .sliderInput{
 
@@ -201,4 +208,24 @@
     .sliderInput[type=text]{
 
       padding-left:10px;
+    }
+    .sliderUl{
+      list-style:none;
+
+    }
+    .sliderUl p{
+      font-size:11px;
+      padding-left:12px;
+      color:lightgray;
+      padding-top:8px;
+      padding-bottom:12px;
+      border-bottom:1px dotted lightgray;
+    }
+    .vpH2{
+      color:black;
+      font-family: "Varela Round";
+    }
+    iframe{
+      padding:0px;
+      margin:0px;
     }
