@@ -141,6 +141,11 @@
       font-family:"Varela Round";
       color:gray;
     }
+    .blogUl li a:hover{
+      color:greenyellow;
+      transition: 0.3s ease-in;
+    }
+
     .sliderUl{
 
       list-style:none;
@@ -162,12 +167,19 @@
       padding:0px;
       border:none;
       margin-top: 30px;
+      position:relative;
     }
-    .sliderButton a{
+     .sliderButton{
+      border-radius:50%;
+     }
 
-      color:black;
-      text-decoration: none;
+    .sliderButton input{
 
+      border-radius:30%;
+      border:none;
+      font-family:"Varela Round";
+      outline: none;
+      position: absolute;
     }
     .slider{
       overflow: hidden;
@@ -175,4 +187,18 @@
     }
     .slider ul li{
       float: left;
+    }
+    .sliderP{
+      font-size:15px;
+    }
+    .sliderInput{
+
+      outline:none;
+      background-color:#e6e8ed;
+      border:none;
+      height:40px;
+    }
+    .sliderInput[type=text]{
+
+      padding-left:10px;
     }

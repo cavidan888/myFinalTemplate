@@ -31,7 +31,7 @@ var totalWidth = liLength*liWidth;
 var liCount=0;
 $(".slider ul").css("width",totalWidth +"px");
 
-$("a.Next").click(function(){
+$("input.Next").click(function(){
 	if (liCount < liLength - 1){
 		liCount++;
 	   newWidth = liWidth * liCount;
@@ -45,7 +45,7 @@ $("a.Next").click(function(){
 })
 
  
-$("a.Prev").click(function(){
+$("input.Prev").click(function(){
 	if (liCount > 0){
 		liCount--;
 	   newWidth = liWidth * liCount;
