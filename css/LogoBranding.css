@@ -1,0 +1,429 @@
+
+#header {
+  width: 100%;
+  height: 150px;
+  background: white;
+  font-size: 1.2em;
+}
+#header .container {
+  padding: 0 20px;
+}
+#header .headerSearch {
+  padding: 10px 0;
+}
+#header .headerSearch input {
+  border: none;
+  outline: none;
+}
+#header .headerPhone {
+  padding-left: 20px;
+}
+@media screen and (min-width: 767px) {
+  #header .headerPhone {
+    float: right;
+  }
+}
+@media screen and (max-width: 767px) {
+  #header .headerPhone {
+    float: left;
+  }
+}
+#header .headerPhone a {
+  color: #606473;
+}
+#header .headerPhone a:hover {
+  text-decoration: none;
+  color: #53B778;
+}
+#header .headerPhone img {
+  padding: 0 20px;
+}
+    .myContainer2 {
+
+        height: 100%;
+    }
+
+    .myNavbar2 {
+
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    .imgHeader img {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35px;
+    }
+
+    .myBrand a {
+
+        padding: 13px 0 5px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #606060;
+    }
+
+    .myBrand a:hover {
+        border-bottom: 3px solid green;
+    }
+
+    .icon-bar {
+        background-color: black;
+    }
+
+    #header button {
+  padding: 10px;
+  background: #53B778;
+  color: white;
+  border: 2px solid #53B778;
+  transition: all 0.3s ease;
+}
+
+    #header button p {
+
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        color: black;
+        font-family: sans-serif;
+    }
+
+    #header button:hover {
+        border: 2px solid green;
+        background-color: white;
+        color: #53B778;
+        transition: 0.2s ease-in;
+    }
+
+    .myCF{
+      background-image: url(../img/apple.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      margin-bottom:60px;
+      background-attachment: fixed;
+
+    }
+    .myCF h1{
+
+      font-size:60px;
+      font-family: "Varela Round";
+      color:white;
+
+    }
+    .dmCol{
+
+      /*background-color: yellow;*/
+      margin-top:50px;
+    }
+    .dmCol p{
+      font-family: "Varela Round";
+      font-size:20px;
+      margin-bottom:40px;
+      color:white;
+    }
+  
+
+    .b-color {
+
+        color:green;
+        font-size: 35px;
+        font-family: "Varela Round";
+        margin-top:0px;
+        padding:0px;
+
+    }
+
+    .second-Title {
+
+        font-size: 30px;
+        font-family: "Varela Round";
+        margin-bottom: 30px;
+    }
+
+    .lorem-Text-Section {
+
+        font-size: 18px;
+        font-family: "Varela Round";
+        color: rgb(96, 96, 96);
+        margin-bottom: 30px;
+    }
+
+    .list-Section {
+
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .list-Section li i {
+
+        font-size: 30px;
+        margin-right: 10px;
+        color: rgb(96, 96, 96);
+    }
+
+    .list-Section li {
+
+        font-size: 20px;
+        color: rgb(96, 96, 96);
+    }
+
+    .lorem-Text-Section2 {
+
+        font-size: 18px;
+        font-family: "Varela Round";
+        color: rgb(96, 96, 96);
+        margin-top: 30px;
+    }
+
+    .form-control {
+        height: 70px;
+        border: none;
+        border-bottom: 3px solid lightgray;
+        font-size: 20px;
+    }
+   
+
+    .myBtn {
+
+        width: 100%;
+        height: 50px;
+        background-color: #53b778;
+        outline: none;
+    }
+
+    .myH3 {
+
+        font-size: 30px;
+    }
+
+    .myBtn:hover {
+
+        background-color: white;
+        border: 3px solid #53b778;
+    }
+
+    .b-clor {
+
+        text-align: center;
+        color: #53b778;
+        font-family: "Varela Round";
+    }
+
+    .myH4 {
+
+        text-align: center;
+        color: rgb(96, 96, 96);
+        font-family: "Varela Round";
+        margin-bottom: 30px;
+    }
+/*
+    progressbar section start*/
+
+#design {
+  width: 100%;
+  padding: 85px 0 0;
+}
+#design h2 {
+  line-height: 25px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #53B778;
+  font-family: "Varela Round";
+}
+#design p {
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: "Varela Round";
+}
+ .aktive {
+  color: #57b87b;
+}
+ .change:before {
+  border: 2px solid #53B778;
+}
+ #design .change span {
+
+  
+  color: #53B778;
+  border-color: #53B778;
+  background: white;
+}
+ .change p {
+  color: #53B778;
+  font-family: "Varela Round";
+}
+#design ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  margin: 20px auto 26px;
+  border: none;
+  z-index: 0;
+  max-width: 600px;
+}
+#design ul li {
+  display: inline-block;
+  text-align: center;
+  float: none;
+  padding-left: 35px;
+  font-family: "Varela Round";
+}
+#design ul li:not(:first-child):before {
+  background: #e5e5e5;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  margin: 0 auto;
+  position: relative;
+  right: 60px;
+  top:18px;
+  width:100%;
+  z-index: -1;
+}
+#design ul li span {
+  background: #f5f6f7;
+  border: 2px solid #e5e5e5;
+  font-size:0px;
+  border-radius: 50%;
+  padding:30px;
+  color: #606060;
+
+}
+#design ul li a {
+  text-decoration: none;
+}
+#design ul li p {
+  padding-top: 30px;
+  font-size: 15px;
+  color: #606060;
+  font-weight: bold;
+}
+ .view {
+  /*display: none;*/
+}
+
+ .pool {
+  border: 1px solid #e9e9e9;
+  position: relative;
+  padding: 16px 34% 0px 30px;
+  margin-bottom:60px;
+}
+ .pool h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Varela Round";
+}
+ .pool p {
+  line-height: 26px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-family: "Varela Round";
+}
+ .pool img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  max-height: 100%;
+
+}
+.myCenter{
+background-color:rgb(50, 58, 69);
+
+margin-top:150px;
+}
+.textSectionH2{
+
+  color:white;
+  text-align: center;
+  font-family: "Varela Round";
+  margin-top:50px;
+  margin-bottom:10px;
+  font-size: 30px;
+
+}
+.myForm{
+
+
+  height:150px;
+  padding-top:35px;
+
+}
+.textSectionCol{
+
+  
+  text-align: center;
+  height:65%;
+  padding-top:15px;
+}
+.textSectionCol input{
+
+  width:100%;
+  height:80%;
+  border:none;
+  outline:none;
+}
+.UserRow input[type=text]{
+
+padding-left:30px;
+}
+.UserRow{
+
+  position: relative;
+}
+.UserRow i{
+position: absolute;
+top: 29px;
+left: 20px;
+}
+.another{
+
+
+    background: #53B778;
+    color:white;
+   
+}
+.another:hover{
+
+  background-color:rgba(0,0,0,0.0);
+  border: 2px solid #53B778;
+  transition: all 0.2s ease;
+  color: #53B778;
+
+}
+.userP{
+
+  color:rgb(157, 157, 157);
+  font-family: "Varela Round";
+  text-align: center;
+  margin-bottom:50px;
+  font-size:17px;
+}
+.myFluid{
+
+  background-color:#eaeaea;
+  padding-top:80px;
+}
+.srvcs{
+
+  color:#606060;
+  font-family: "Varela Round";
+  list-style:none;
+ padding-left:0px;
+}
+.liItem{
+
+  font-size:15px;
+  font-family: "Varela Round";
+  color:#9d9d9d;
+  list-style: none;
+}
+.footerCol{
+
+  margin:0px;
+  padding:0px;
+}
