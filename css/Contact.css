@@ -1,0 +1,124 @@
+
+#header {
+  width: 100%;
+  height: 150px;
+  background: white;
+  font-size: 1.2em;
+}
+#header .container {
+  padding: 0 20px;
+}
+#header .headerSearch {
+  padding: 10px 0;
+}
+#header .headerSearch input {
+  border: none;
+  outline: none;
+}
+#header .headerPhone {
+  padding-left: 20px;
+}
+@media screen and (min-width: 767px) {
+  #header .headerPhone {
+    float: right;
+  }
+}
+@media screen and (max-width: 767px) {
+  #header .headerPhone {
+    float: left;
+  }
+}
+#header .headerPhone a {
+  color: #606473;
+}
+#header .headerPhone a:hover {
+  text-decoration: none;
+  color: #53B778;
+}
+#header .headerPhone img {
+  padding: 0 20px;
+}
+    .myContainer2 {
+
+        height: 100%;
+    }
+
+    .myNavbar2 {
+
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    .imgHeader img {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35px;
+    }
+
+    .myBrand a {
+
+        padding: 13px 0 5px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #606060;
+    }
+
+    .myBrand a:hover {
+        border-bottom: 3px solid green;
+    }
+
+    .icon-bar {
+        background-color: black;
+    }
+
+    #header button {
+  padding: 10px;
+  background: #53B778;
+  color: white;
+  border: 2px solid #53B778;
+  transition: all 0.3s ease;
+}
+
+    #header button p {
+
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        color: black;
+        font-family: sans-serif;
+    }
+
+    #header button:hover {
+        border: 2px solid green;
+        background-color: white;
+        color: #53B778;
+        transition: 0.2s ease-in;
+    }
+
+    .myCF{
+      background-image: url(../img/slide05.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      margin-bottom:60px;
+      background-attachment: fixed;
+
+    }
+    .myCF h1{
+
+      font-size:60px;
+      font-family: "Varela Round";
+      color:white;
+
+    }
+    .dmCol{
+
+      /*background-color: yellow;*/
+      margin-top:50px;
+    }
+    .dmCol p{
+      font-family: "Varela Round";
+      font-size:20px;
+      margin-bottom:40px;
+      color:white;
+    }
