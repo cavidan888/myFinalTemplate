@@ -221,6 +221,10 @@
       padding-bottom:12px;
       border-bottom:1px dotted lightgray;
     }
+    .sliderUl li i{
+
+      font-size:30px;
+    }
     .vpH2{
       color:black;
       font-family: "Varela Round";
@@ -228,4 +232,5 @@
     iframe{
       padding:0px;
       margin:0px;
+      margin-top:30px;
     }
